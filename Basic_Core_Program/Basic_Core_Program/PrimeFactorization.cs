@@ -18,7 +18,7 @@ namespace Basic_Core_Program
             num= Convert.ToInt32(Console.ReadLine()); 
                 for(Var_j=1;Var_j<=num;Var_j++)
                 factorial *= Var_j;
-            Console.Write("The Factorial of {0} is: {1}\n",num, factorial);
+            Console.Write("The Factorial of {0} is: {1}\n", num ,  factorial);
  }
 }
 }
