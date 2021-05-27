@@ -17,13 +17,11 @@ namespace Basic_Core_Program
             int num = Convert.ToInt32(Console.ReadLine());
             for (int var_i = 1; var_i <= num; var_i++)
             {
-                 Result += 1 / (float)var_i;  Console.Write("1/{0} + ", var_i);
-             
+                 Result += 1 / (float)var_i;
+                Console.Write("1/{0} + ", var_i);
             }
             Console.WriteLine($"= {Result}");
-            //Console.Write("\nSum of Series upto {0} terms : {1} \n", + num, " ", + Result);
-
-            Console.ReadLine();
+           Console.ReadLine();
         }
     }
 }
