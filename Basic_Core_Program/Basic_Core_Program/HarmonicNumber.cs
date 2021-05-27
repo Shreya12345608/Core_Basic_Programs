@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Basic_Core_Program
+{
+    class HarmonicNumber
+    {
+        public int num = 0;
+        double Result = 0.0;
+        public void CalcHarmonicSeries()
+        {
+
+         Console.Write("Input the number of terms : ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            for (int var_i = 1; var_i <= num; var_i++)
+            {
+                 Result += 1 / (float)var_i;  Console.Write("1/{0} + ", var_i);
+             
+            }
+            Console.WriteLine($"= {Result}");
+            //Console.Write("\nSum of Series upto {0} terms : {1} \n", + num, " ", + Result);
+
+            Console.ReadLine();
+        }
+    }
+}
